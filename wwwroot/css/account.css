@@ -1,0 +1,21 @@
+﻿body {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+}
+.account-container {
+    align-items: center;
+    display:flex;
+    justify-content:center;
+    padding:2rem;
+    min-height: 100vh;
+}
+
+.account-box{
+    background-color: white;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 100%;
+    opacity:9;
+}
