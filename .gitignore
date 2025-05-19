@@ -183,3 +183,4 @@ obj/Debug/net8.0/staticwebassets/msbuild.build.Login-Signup-MVC-web.props
 obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Login-Signup-MVC-web.props
 obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Login-Signup-MVC-web.props
 obj/Debug/net8.0/staticwebassets/msbuild.Login-Signup-MVC-web.Microsoft.AspNetCore.StaticWebAssets.props
+obj/Debug/net8.0/Login-Signup-MVC-web.sourcelink.json

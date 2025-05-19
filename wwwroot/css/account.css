@@ -1,12 +1,12 @@
-﻿body {
+﻿.account-container {
     background-image: url('../images/bg.jpg');
     background-size: cover;
-}
-.account-container {
+    background-position: center;
+    background-repeat: repeat-y;
     align-items: center;
-    display:flex;
-    justify-content:center;
-    padding:2rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
     min-height: 100vh;
 }
 
