@@ -60,6 +60,25 @@ namespace Login_Signup_MVC_web.Controllers
             return View();
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Email or Password is incorrect!");
+                    return View(model);
+                }
+            }
+            return View(model);
+        }
+
         
     }
 }

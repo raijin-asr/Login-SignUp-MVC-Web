@@ -6,3 +6,4 @@ Login and SignUp using asp.net Core MVC Web
 
     Day 1: Create and Setup project, Database
     Day 2: Add and design Register page and its functionality
+    Day 3: Add Login page, design and authentication
